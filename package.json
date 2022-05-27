@@ -1,0 +1,32 @@
+{
+  "name": "svelte-scaffold",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "start": "sirv public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eroist/svelte-scaffold.git"
+  },
+  "keywords": [],
+  "author": "eroist",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eroist/svelte-scaffold/issues"
+  },
+  "homepage": "https://github.com/eroist/svelte-scaffold#readme",
+  "dependencies": {
+    "svelte": "^3.48.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "rollup": "^2.75.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-svelte": "^7.1.0",
+    "sirv-cli": "^2.0.2"
+  }
+}
